@@ -1,6 +1,7 @@
                                       This is the assembly language and register 
                                   
-                                  
+  N.B[Before run the code you should remind the input value,not greater than 9]
+  
 To known about assembly language first you need to know Register.How many type and their function.
 REGISTER:::::::Registers are essentially places that the processor can store memory. You can think of them as buckets which the processor can store information in
 
