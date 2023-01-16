@@ -42,3 +42,16 @@ mov	ecx,msg		; message to write.
 mov	ebx,1		; file descriptor (stdout).
 mov	eax,4		; system call number (sys_write).
 int	0x80		; call kernel.
+
+
+
+                            The EQU Directive
+                            
+                            
+                            
+The EQU directive is used for defining constants. The syntax of the EQU directive is as follows −
+
+CONSTANT_NAME EQU expression
+TOTAL_STUDENTS equ 50
+SYS_WRITE equ 4
+                            
