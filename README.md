@@ -51,7 +51,9 @@ int	0x80		; call kernel.
                             
 The EQU directive is used for defining constants. The syntax of the EQU directive is as follows −
 
-CONSTANT_NAME EQU expression
-TOTAL_STUDENTS equ 50
+CONSTANT_NAME EQU expression;
+
+
+TOTAL_STUDENTS equ 50;
 SYS_WRITE equ 4
                             
