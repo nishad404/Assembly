@@ -31,7 +31,8 @@ N DB 10,13,"IN DECIMAL VALUE $"
     MOV DL,BL
     MOV AH,2
     INT 21H
-    
+    MOV AH,4CH
+    INT 21H
     MAIN ENDP
    
    
