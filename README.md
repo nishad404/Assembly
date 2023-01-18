@@ -60,14 +60,21 @@ SYS_WRITE equ 4
                                                  PROLOGUE AND EPILOGUE
 Then the prologue is executed:    
 push  ebp         ; Save the stack-frame base pointer (of the calling function).
+
 mov   ebp, esp    ; Set the stack-frame base pointer to be the current
+
                   ; location on the stack.
+                  
 sub   esp, N      ; Grow the stack by N bytes to reserve space for local variables
+
 
 
 The epilog:
 mov   esp, ebp    ; Put the stack pointer back where it was when this function
+
                   ; was called.
+                  
 pop   ebp         ; Restore the calling function's stack frame.
+
 ret               ; Return to the calling function.
 
